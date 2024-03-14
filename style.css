@@ -1,0 +1,85 @@
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d0c7e6;
+  margin: 0;
+  padding: 0;
+  color: #9c78a5;
+}
+
+/* Main Container Styling */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #e5e0f1;
+}
+
+/* Title Styling */
+h1 {
+  color: #65426c;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Introduction Styling */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ad82b0;
+}
+
+/* Pet Styling */
+.pet {
+  background-color: #f8f5f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 40px;
+  transition: 0.3s ease-in-out; /* Add transition effect */
+}
+
+.pet:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Pet Image Styling */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 270px; /* Added max-height */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Pet Name Styling */
+h2 {
+  color: #a783b4;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+/* Pet Type Styling */
+.type {
+  color: #815b8f;
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Pet Description Styling */
+.description {
+  color: #451566;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
